@@ -33,6 +33,10 @@ public class UIMainScene : MonoBehaviour
     {
         Instance = null;
     }
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     private void Update()
     {
